@@ -1,6 +1,6 @@
 # HermesLogger
 
-[![CI Status](http://img.shields.io/travis/Michael Selsky/HermesLogger.svg?style=flat)](https://travis-ci.org/Michael Selsky/HermesLogger)
+[![CI Status](http://img.shields.io/travis/MichaelSelsky/HermesLogger.svg?style=flat)](https://travis-ci.org/Michael Selsky/HermesLogger)
 [![Version](https://img.shields.io/cocoapods/v/HermesLogger.svg?style=flat)](http://cocoapods.org/pods/HermesLogger)
 [![License](https://img.shields.io/cocoapods/l/HermesLogger.svg?style=flat)](http://cocoapods.org/pods/HermesLogger)
 [![Platform](https://img.shields.io/cocoapods/p/HermesLogger.svg?style=flat)](http://cocoapods.org/pods/HermesLogger)
