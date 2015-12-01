@@ -6,7 +6,7 @@
 //
 //
 
-import Foundation
+import UIKit
 
 internal struct XcodeLogger: Logger {
     private let escape = "\u{001b}["

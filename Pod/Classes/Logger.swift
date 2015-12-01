@@ -6,7 +6,7 @@
 //
 //
 
-import Foundation
+import UIKit
 
 public struct Log<T> { //TODO: Rename
     let level: HermesLevel
