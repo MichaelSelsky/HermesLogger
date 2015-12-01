@@ -1,0 +1,6 @@
+framework module HermesLogger {
+  umbrella header "HermesLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

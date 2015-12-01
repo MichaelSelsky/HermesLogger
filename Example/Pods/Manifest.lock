@@ -1,0 +1,14 @@
+PODS:
+  - HermesLogger (0.1.0)
+
+DEPENDENCIES:
+  - HermesLogger (from `../`)
+
+EXTERNAL SOURCES:
+  HermesLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HermesLogger: 5a912b38a0589d216854adf52649bd439695dbc7
+
+COCOAPODS: 0.39.0

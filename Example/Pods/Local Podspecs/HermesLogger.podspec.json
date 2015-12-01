@@ -1,0 +1,25 @@
+{
+  "name": "HermesLogger",
+  "version": "0.1.0",
+  "summary": "A short description of HermesLogger.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HermesLogger",
+  "license": "MIT",
+  "authors": {
+    "Michael Selsky": "mselsky@ispeech.org"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HermesLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HermesLogger": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092AD9368FDEFA7FBB3E761D178A3F1E /* Pods-HermesLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 458539D6DB65E9CA5E1951665A1D17AE /* Pods-HermesLogger_Tests-dummy.m */; };
+		10F96BCC80F4EBEA1EEDB894CF90C975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3DA3EFA0E70A743D1FD7F559C1D2EACD /* HermesLogger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57D78435FCDDB57948E3F0958D02B059 /* HermesLogger.bundle */; };
+		4CC17CE91C0D2276007449F9 /* XcodeLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC17CE81C0D2276007449F9 /* XcodeLogger.swift */; };
+		4CC17CEB1C0D22C5007449F9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC17CEA1C0D22C5007449F9 /* Logger.swift */; };
+		5BDED5A4E4C9A832D3D4BBAEDB6ED3D4 /* Pods-HermesLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E1444326D2F77FED8A9765AE62FD57 /* Pods-HermesLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74324D6DDCE5EC0002DE54F75504A83E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		83925C50D75D3670EAEBA02DB0FC8BD2 /* HermesLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 920A5BF777D763CD3C88D8B9D62E1E3E /* HermesLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A0CA41C0E46839B473F3C84716781D /* Pods-HermesLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 212C8805D0171D417777B1B0F911C49B /* Pods-HermesLogger_Example-dummy.m */; };
+		9927B2C7D7144807F8D1756B0B95AD90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A7C8561C4952AF9D97A9895AA005DF69 /* HermesLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC1D17094F624E1F7CF50218101544F /* HermesLogger-dummy.m */; };
+		BD45CCD935E07B155FAF75F86AE8424F /* HermesLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0056B9BD9C06BCBFFBB95CD49A5581 /* HermesLogger.swift */; };
+		FD48A027281E0AD50AAB7C2955F63694 /* Pods-HermesLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB7E5951315EC5C32ACA0D1780FFEBA /* Pods-HermesLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3303BE4D64B065E40173ADECACCCE4C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302CCB19B4A268EE37A15CAEA572CFC0;
+			remoteInfo = HermesLogger;
+		};
+		9DF466F8024638FE6B7759DC4959D978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302CCB19B4A268EE37A15CAEA572CFC0;
+			remoteInfo = HermesLogger;
+		};
+		EEF618115916B594A786D6973CC6F7A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C464965E3C9C9E297D82E71722C31771;
+			remoteInfo = "HermesLogger-HermesLogger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7E1A15BB481513B7D86191BD1DC81E /* Pods-HermesLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HermesLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0CBC1E6EE3DB384BCCE5B11E36239C1A /* Pods-HermesLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HermesLogger_Example.modulemap"; sourceTree = "<group>"; };
+		1FF0BCA84A33C78F5FE88110CBBF56E9 /* Pods_HermesLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HermesLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		212C8805D0171D417777B1B0F911C49B /* Pods-HermesLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HermesLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		22E1444326D2F77FED8A9765AE62FD57 /* Pods-HermesLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HermesLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		33C471B8408616753C0D2A8BE3F1789F /* Pods-HermesLogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HermesLogger_Example-resources.sh"; sourceTree = "<group>"; };
+		3517D689A1E5CA13298DD22F107416F5 /* Pods-HermesLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HermesLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		38D7927172A3FA622E3D4B00F23B2205 /* Pods-HermesLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HermesLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EB7E5951315EC5C32ACA0D1780FFEBA /* Pods-HermesLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HermesLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		458539D6DB65E9CA5E1951665A1D17AE /* Pods-HermesLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HermesLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		4CC17CE81C0D2276007449F9 /* XcodeLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XcodeLogger.swift; sourceTree = "<group>"; };
+		4CC17CEA1C0D22C5007449F9 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		57D78435FCDDB57948E3F0958D02B059 /* HermesLogger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HermesLogger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0056B9BD9C06BCBFFBB95CD49A5581 /* HermesLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HermesLogger.swift; sourceTree = "<group>"; };
+		71E2D341C6031DE17DC7DA1B97808CD2 /* HermesLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HermesLogger-prefix.pch"; sourceTree = "<group>"; };
+		790E905AEAC2D45DCD1C746EFEF1BA64 /* Pods-HermesLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HermesLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80DC3797F4ECBCF1D40023BF28B09C8C /* Pods-HermesLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HermesLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8EDC2FA2E41DC7C06610569F9A2E9B4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE8757DEE0FA92D08E65BF76690992A /* HermesLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HermesLogger.modulemap; sourceTree = "<group>"; };
+		920A5BF777D763CD3C88D8B9D62E1E3E /* HermesLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HermesLogger-umbrella.h"; sourceTree = "<group>"; };
+		937A1DE7CCE3A221E519DEC6CD9CACC1 /* Pods-HermesLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HermesLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		96EDDA69968C7139F5401625C9210383 /* HermesLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HermesLogger.xcconfig; sourceTree = "<group>"; };
+		9F8B74C5F1AAE44F932F90B39B9C6251 /* Pods-HermesLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HermesLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFC1D17094F624E1F7CF50218101544F /* HermesLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HermesLogger-dummy.m"; sourceTree = "<group>"; };
+		B86878C62E781A52D1ADF9D686111CFC /* Pods_HermesLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HermesLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5C2AA2CB63ADE1B60986BF80302416A /* Pods-HermesLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HermesLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC3E1BA8132DF21682203430A085BA4D /* Pods-HermesLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HermesLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DC8FEE132FFF41120C3E66B1117B8F2B /* Pods-HermesLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HermesLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DE89ADD6AA3B621576B37F1912EB5A37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02563518281C93FA2063E42CCE9E629 /* Pods-HermesLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HermesLogger_Tests-resources.sh"; sourceTree = "<group>"; };
+		E22A8E8C8FFC76734E66DB886A2E6E93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46D7856513072B3AA369E226DBBC196 /* HermesLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HermesLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA795316AE1B243B81F4E9941DD1E4B4 /* Pods-HermesLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HermesLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F428E8ECB6311DC55F667758AE4787B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F1BF0516B88C51543B6B095E4BA038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F96BCC80F4EBEA1EEDB894CF90C975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2C95EE53298655883F81ACFB4995B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74324D6DDCE5EC0002DE54F75504A83E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5BEFF725C47FE098B4FAF08D00E8DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9927B2C7D7144807F8D1756B0B95AD90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303C071447A2CC04A470AE43F3CBF7FD /* Pods-HermesLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC2FA2E41DC7C06610569F9A2E9B4F /* Info.plist */,
+				937A1DE7CCE3A221E519DEC6CD9CACC1 /* Pods-HermesLogger_Tests.modulemap */,
+				9F8B74C5F1AAE44F932F90B39B9C6251 /* Pods-HermesLogger_Tests-acknowledgements.markdown */,
+				3517D689A1E5CA13298DD22F107416F5 /* Pods-HermesLogger_Tests-acknowledgements.plist */,
+				458539D6DB65E9CA5E1951665A1D17AE /* Pods-HermesLogger_Tests-dummy.m */,
+				38D7927172A3FA622E3D4B00F23B2205 /* Pods-HermesLogger_Tests-frameworks.sh */,
+				E02563518281C93FA2063E42CCE9E629 /* Pods-HermesLogger_Tests-resources.sh */,
+				3EB7E5951315EC5C32ACA0D1780FFEBA /* Pods-HermesLogger_Tests-umbrella.h */,
+				D5C2AA2CB63ADE1B60986BF80302416A /* Pods-HermesLogger_Tests.debug.xcconfig */,
+				80DC3797F4ECBCF1D40023BF28B09C8C /* Pods-HermesLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-HermesLogger_Tests";
+			path = "Target Support Files/Pods-HermesLogger_Tests";
+			sourceTree = "<group>";
+		};
+		43A7D1426BA6270F334A1BAD4CEA5326 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				973A6AEA4DCD29830C6D888BA14FAAF3 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		579FF359688E645020000A9C9EAFED9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D78435FCDDB57948E3F0958D02B059 /* HermesLogger.bundle */,
+				E46D7856513072B3AA369E226DBBC196 /* HermesLogger.framework */,
+				1FF0BCA84A33C78F5FE88110CBBF56E9 /* Pods_HermesLogger_Example.framework */,
+				B86878C62E781A52D1ADF9D686111CFC /* Pods_HermesLogger_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6086C8895B52C768357508E4B424EB2E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B45F39BCCD9F3EA7FE6123B380BDC03 /* HermesLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6147A197C0C7953E963EA025C7671F8E /* Pods-HermesLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E22A8E8C8FFC76734E66DB886A2E6E93 /* Info.plist */,
+				0CBC1E6EE3DB384BCCE5B11E36239C1A /* Pods-HermesLogger_Example.modulemap */,
+				790E905AEAC2D45DCD1C746EFEF1BA64 /* Pods-HermesLogger_Example-acknowledgements.markdown */,
+				FA795316AE1B243B81F4E9941DD1E4B4 /* Pods-HermesLogger_Example-acknowledgements.plist */,
+				212C8805D0171D417777B1B0F911C49B /* Pods-HermesLogger_Example-dummy.m */,
+				DC3E1BA8132DF21682203430A085BA4D /* Pods-HermesLogger_Example-frameworks.sh */,
+				33C471B8408616753C0D2A8BE3F1789F /* Pods-HermesLogger_Example-resources.sh */,
+				22E1444326D2F77FED8A9765AE62FD57 /* Pods-HermesLogger_Example-umbrella.h */,
+				0C7E1A15BB481513B7D86191BD1DC81E /* Pods-HermesLogger_Example.debug.xcconfig */,
+				DC8FEE132FFF41120C3E66B1117B8F2B /* Pods-HermesLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-HermesLogger_Example";
+			path = "Target Support Files/Pods-HermesLogger_Example";
+			sourceTree = "<group>";
+		};
+		7B45F39BCCD9F3EA7FE6123B380BDC03 /* HermesLogger */ = {
+			isa = PBXGroup;
+			children = (
+				43A7D1426BA6270F334A1BAD4CEA5326 /* Pod */,
+				BA9763963B2258A04C2078668DBAB88A /* Support Files */,
+			);
+			name = HermesLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				6086C8895B52C768357508E4B424EB2E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				579FF359688E645020000A9C9EAFED9C /* Products */,
+				83C4ABA2174B36F9E0F3C9FF5729CC6A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83C4ABA2174B36F9E0F3C9FF5729CC6A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6147A197C0C7953E963EA025C7671F8E /* Pods-HermesLogger_Example */,
+				303C071447A2CC04A470AE43F3CBF7FD /* Pods-HermesLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		973A6AEA4DCD29830C6D888BA14FAAF3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5B0056B9BD9C06BCBFFBB95CD49A5581 /* HermesLogger.swift */,
+				4CC17CEA1C0D22C5007449F9 /* Logger.swift */,
+				4CC17CE81C0D2276007449F9 /* XcodeLogger.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BA9763963B2258A04C2078668DBAB88A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EE8757DEE0FA92D08E65BF76690992A /* HermesLogger.modulemap */,
+				96EDDA69968C7139F5401625C9210383 /* HermesLogger.xcconfig */,
+				AFC1D17094F624E1F7CF50218101544F /* HermesLogger-dummy.m */,
+				71E2D341C6031DE17DC7DA1B97808CD2 /* HermesLogger-prefix.pch */,
+				920A5BF777D763CD3C88D8B9D62E1E3E /* HermesLogger-umbrella.h */,
+				DE89ADD6AA3B621576B37F1912EB5A37 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HermesLogger";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D9546BE23837C417D084705DCB88577 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83925C50D75D3670EAEBA02DB0FC8BD2 /* HermesLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE3598D3E91FD13EF2EA9F15A6DAF65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDED5A4E4C9A832D3D4BBAEDB6ED3D4 /* Pods-HermesLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F65F344027DF1582F7AADFDC159FBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD48A027281E0AD50AAB7C2955F63694 /* Pods-HermesLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		302CCB19B4A268EE37A15CAEA572CFC0 /* HermesLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B6B4FB772E39FE2019E949015A6B5E /* Build configuration list for PBXNativeTarget "HermesLogger" */;
+			buildPhases = (
+				0C36853E56E392AE01958092EC1EFF71 /* Sources */,
+				89F1BF0516B88C51543B6B095E4BA038 /* Frameworks */,
+				FE24CA51C3E632ACBA8C91ADF8908B3A /* Resources */,
+				7D9546BE23837C417D084705DCB88577 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D0A5697C7101256A8B076A1B254B21 /* PBXTargetDependency */,
+			);
+			name = HermesLogger;
+			productName = HermesLogger;
+			productReference = E46D7856513072B3AA369E226DBBC196 /* HermesLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C464965E3C9C9E297D82E71722C31771 /* HermesLogger-HermesLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0B6479B15B05D473F7C52F45D68696 /* Build configuration list for PBXNativeTarget "HermesLogger-HermesLogger" */;
+			buildPhases = (
+				0F51E1DD3C2E699435BFF305AA401C8E /* Sources */,
+				6F428E8ECB6311DC55F667758AE4787B /* Frameworks */,
+				47B1677A81AB91C8C072E3FCCF1B29FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HermesLogger-HermesLogger";
+			productName = "HermesLogger-HermesLogger";
+			productReference = 57D78435FCDDB57948E3F0958D02B059 /* HermesLogger.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CB9BE80E91E24AB6C272A8D415BA45AE /* Pods-HermesLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49C3EBB0A9F3229462E5CA7C0ACFE57 /* Build configuration list for PBXNativeTarget "Pods-HermesLogger_Tests" */;
+			buildPhases = (
+				C1154CF444837B7800EE2AE83B94A887 /* Sources */,
+				8C2C95EE53298655883F81ACFB4995B8 /* Frameworks */,
+				89F65F344027DF1582F7AADFDC159FBA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B617DB729B9BDB570ECDB0DD3057A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-HermesLogger_Tests";
+			productName = "Pods-HermesLogger_Tests";
+			productReference = B86878C62E781A52D1ADF9D686111CFC /* Pods_HermesLogger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFC2D107796C550799576C6E4B178D66 /* Pods-HermesLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E59279EFC2784B449DFF1CA24CA781C /* Build configuration list for PBXNativeTarget "Pods-HermesLogger_Example" */;
+			buildPhases = (
+				399D491EC5F443763100A9D16EA75501 /* Sources */,
+				EB5BEFF725C47FE098B4FAF08D00E8DC /* Frameworks */,
+				7FE3598D3E91FD13EF2EA9F15A6DAF65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4451A488CE2A4C91C55BEF8824454272 /* PBXTargetDependency */,
+			);
+			name = "Pods-HermesLogger_Example";
+			productName = "Pods-HermesLogger_Example";
+			productReference = 1FF0BCA84A33C78F5FE88110CBBF56E9 /* Pods_HermesLogger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 579FF359688E645020000A9C9EAFED9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302CCB19B4A268EE37A15CAEA572CFC0 /* HermesLogger */,
+				C464965E3C9C9E297D82E71722C31771 /* HermesLogger-HermesLogger */,
+				DFC2D107796C550799576C6E4B178D66 /* Pods-HermesLogger_Example */,
+				CB9BE80E91E24AB6C272A8D415BA45AE /* Pods-HermesLogger_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47B1677A81AB91C8C072E3FCCF1B29FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE24CA51C3E632ACBA8C91ADF8908B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA3EFA0E70A743D1FD7F559C1D2EACD /* HermesLogger.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C36853E56E392AE01958092EC1EFF71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C8561C4952AF9D97A9895AA005DF69 /* HermesLogger-dummy.m in Sources */,
+				BD45CCD935E07B155FAF75F86AE8424F /* HermesLogger.swift in Sources */,
+				4CC17CE91C0D2276007449F9 /* XcodeLogger.swift in Sources */,
+				4CC17CEB1C0D22C5007449F9 /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F51E1DD3C2E699435BFF305AA401C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399D491EC5F443763100A9D16EA75501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A0CA41C0E46839B473F3C84716781D /* Pods-HermesLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1154CF444837B7800EE2AE83B94A887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092AD9368FDEFA7FBB3E761D178A3F1E /* Pods-HermesLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4451A488CE2A4C91C55BEF8824454272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HermesLogger;
+			target = 302CCB19B4A268EE37A15CAEA572CFC0 /* HermesLogger */;
+			targetProxy = 9DF466F8024638FE6B7759DC4959D978 /* PBXContainerItemProxy */;
+		};
+		84D0A5697C7101256A8B076A1B254B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HermesLogger-HermesLogger";
+			target = C464965E3C9C9E297D82E71722C31771 /* HermesLogger-HermesLogger */;
+			targetProxy = EEF618115916B594A786D6973CC6F7A9 /* PBXContainerItemProxy */;
+		};
+		F2B617DB729B9BDB570ECDB0DD3057A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HermesLogger;
+			target = 302CCB19B4A268EE37A15CAEA572CFC0 /* HermesLogger */;
+			targetProxy = 3303BE4D64B065E40173ADECACCCE4C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33CA66DF102A00065D9005E7C40135B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EDDA69968C7139F5401625C9210383 /* HermesLogger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HermesLogger/HermesLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HermesLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HermesLogger/HermesLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HermesLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66D4C4DB1C33B5BAD203E4DA8AA0E011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EDDA69968C7139F5401625C9210383 /* HermesLogger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HermesLogger/HermesLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HermesLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HermesLogger/HermesLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HermesLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B18E62020C4F8A8B8D4F482F6C5CC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EDDA69968C7139F5401625C9210383 /* HermesLogger.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HermesLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9D8E394549686333F36C64707CA924A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DC3797F4ECBCF1D40023BF28B09C8C /* Pods-HermesLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HermesLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HermesLogger_Tests/Pods-HermesLogger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HermesLogger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0D94F71B253719BC80E8FEBCDD2CF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8FEE132FFF41120C3E66B1117B8F2B /* Pods-HermesLogger_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HermesLogger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HermesLogger_Example/Pods-HermesLogger_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HermesLogger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0DC01772F487AE4A09554ED9204536D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7E1A15BB481513B7D86191BD1DC81E /* Pods-HermesLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HermesLogger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HermesLogger_Example/Pods-HermesLogger_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HermesLogger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A222C5DCD170F308F42C8F6545830A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C2AA2CB63ADE1B60986BF80302416A /* Pods-HermesLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HermesLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HermesLogger_Tests/Pods-HermesLogger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HermesLogger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5D8049AB4F6B2458E2671DE9248DD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EDDA69968C7139F5401625C9210383 /* HermesLogger.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HermesLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B6B4FB772E39FE2019E949015A6B5E /* Build configuration list for PBXNativeTarget "HermesLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D4C4DB1C33B5BAD203E4DA8AA0E011 /* Debug */,
+				33CA66DF102A00065D9005E7C40135B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E59279EFC2784B449DFF1CA24CA781C /* Build configuration list for PBXNativeTarget "Pods-HermesLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DC01772F487AE4A09554ED9204536D /* Debug */,
+				A0D94F71B253719BC80E8FEBCDD2CF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49C3EBB0A9F3229462E5CA7C0ACFE57 /* Build configuration list for PBXNativeTarget "Pods-HermesLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A222C5DCD170F308F42C8F6545830A11 /* Debug */,
+				9D8E394549686333F36C64707CA924A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0B6479B15B05D473F7C52F45D68696 /* Build configuration list for PBXNativeTarget "HermesLogger-HermesLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B18E62020C4F8A8B8D4F482F6C5CC4F /* Debug */,
+				A5D8049AB4F6B2458E2671DE9248DD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

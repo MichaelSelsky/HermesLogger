@@ -1,0 +1,6 @@
+framework module Pods_HermesLogger_Example {
+  umbrella header "Pods-HermesLogger_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

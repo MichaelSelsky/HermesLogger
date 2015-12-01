@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import HermesLogger
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        HermesLogs.enabled = true
+        HermesLogs.test()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
