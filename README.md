@@ -9,8 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 HermesLogger is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,7 +20,7 @@ pod "HermesLogger"
 
 ## Author
 
-Michael Selsky, mselsky@ispeech.org
+Michael Selsky, Michael@Selsky.me
 
 ## License
 
