@@ -27,7 +27,7 @@ internal struct XcodeLogger: Logger {
     }
     
     func colorizedLogString<T>(log: HermesLogger.Log<T>) -> String{
-        let logText = "\(log.fileName).\(log.functionName)[\(log.lineNumber)]\n\(log.info)"
+        let logText = "\(log.fileName).\(log.functionName)[\(log.lineNumber)]: \(log.info)"
         let color = log.level.levelColor()
         let colorTag = "\(color.redC),\(color.greenC),\(color.blueC);"
         let colorizedText = "\(escape)fg\(colorTag);\(logText)\(reset)"
